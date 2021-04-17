@@ -1,0 +1,28 @@
+/*
+*
+* Project Name: 	FALON drone - stranded people detection using UAV
+* Author List: 		Sarang Chouguley
+* Filename: 	main.css
+* Functions: 		none
+* Global Variables:	None
+*
+*/
+
+body{
+background-color: lightgoldenrodyellow;
+}
+
+/* styling for container in index.html */
+.container {
+    flex: 1;
+    position:relative;
+    left: auto;
+    right:auto;
+    top:200px;
+    background: rgb(108, 223, 108);
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+}
+

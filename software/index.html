@@ -1,0 +1,63 @@
+<!-- 
+/*
+*
+* Project Name: 	FALON drone - stranded people detection using UAV
+* Author List: 		Sarang Chouguley
+* Filename: 	index.html
+* Functions: 		None
+* Global Variables:	None
+*
+*/
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRONESOFT</title>
+
+    <!-- BoothStrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- custom css linking -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- mapbox linking -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+</head>
+
+<body>
+
+    <center><h2 style="margin: 30px">Welcome to DroneSoft</h2></center>
+    <div class="container">
+        <center>
+            <h3>Select Mode of Operation</h3>
+        </center>
+        <hr>
+            <center><a class="btn btn-primary" style="margin: 10px;" href="pages/mode1.html" >Mode-1</a></center>
+            <center><a class="btn btn-primary" id="mode2Btn" style="margin: 10px;" href="pages/mode2.html">Mode-2</a></center>
+    </div>
+
+
+    <!-- Boothstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!-- Geolocation search linking -->
+    <script
+        src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.min.js"></script>
+    <link rel="stylesheet"
+        href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.css"
+        type="text/css">
+    <!-- Promise polyfill script required to use Mapbox GL Geocoder in IE 11 -->
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+
+</body>
+
+</html>

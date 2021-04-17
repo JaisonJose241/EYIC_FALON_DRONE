@@ -1,0 +1,4 @@
+{
+    "serialSocketPort" : 65131,
+    "telemetrySocketPort" : 65432
+}
